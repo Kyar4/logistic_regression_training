@@ -10,7 +10,7 @@ data_full = np.array([
     [70,  2,  5,  4.1],
     [55,  1,  6,  2.1],
     [90,  3, 15,  3.5],
-    [110, 4, 10,  5.9],  # nếu ảnh là 5.8 hãy sửa lại
+    [110, 4, 10,  5.8], 
     [45,  1,  7,  1.9],
     [75,  2,  4,  2.9],
     [100, 3,  4,  3.7],
@@ -133,3 +133,4 @@ print("\nFinal Weights:", W.flatten(), "Bias:", b)
 print("Predicted:", y_pred)
 print("True     :", y)
 print(f"Final Accuracy: {acc:.4f}")
+
